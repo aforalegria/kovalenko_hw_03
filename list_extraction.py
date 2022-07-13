@@ -14,7 +14,7 @@ def is_collection(list_el):
     if type(list_el) == list or type(list_el) == tuple:
         return True
     else:
-        return
+        return False
 
 
 def list_extractor(list_arg):
